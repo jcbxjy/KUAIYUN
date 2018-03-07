@@ -520,9 +520,9 @@ if [[ $Ksq2 == *黑名单* ]];then
 fi
 echo -e "\033[36m$KyLogo\033[0m"
 echo
-echo -n -e "请输入博客地址：[\033[32m blog.67cc.cn\033[0m ]："
+echo -n -e "请输入博客地址：[\033[32m 1\033[0m ]："
 read key
-if [[ $key == 'blog.67cc.cn' ]]
+if [[ $key == '1' ]]
 then
 	echo
 	dizhi=`echo $localserver|awk '{print $3}'`
